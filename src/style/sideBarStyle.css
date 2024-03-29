@@ -1,0 +1,51 @@
+/* sidebarStyles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container, .sidebar, .menu, .menu-item {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.sidebar-logo {
+    padding: 20px;
+    text-align: center;
+    background-color: #00DFB0;
+}
+
+.menu-item:hover {
+    color: #00DFB0 !important;
+    background-color: black !important;
+}
+
+.sub-menu-item {
+    color: #fff !important;
+    opacity: 1 !important;
+    transition: color 0.3s ease;
+}
+
+.sub-menu-item:hover {
+    color: green !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 250px;
+
+}
+
+.main-content {
+    flex: 1;
+}
